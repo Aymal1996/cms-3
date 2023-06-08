@@ -1,0 +1,177 @@
+$blue: #0077B6;
+$container-color: #171717;
+$element-color: #202020;
+$gray: #7C7C7C;
+$based-color: #BEBEBE;
+$green-color: #02A574;
+$errors: #C3423F;
+$gold-color: #E89005;
+$menu-gray: #2C2C2C;
+$white: #fff;
+
+$primary-color: $blue;
+// $info-color: @primary-color;
+$success-color: $green-color;
+// @processing-color: @blue-6;
+$error-color: $errors;
+// $highlight-color: @red-5;
+$warning-color: $gold-color;
+// $normal-color: #d9d9d9;
+
+$font-family: 'Rubik', sans-serif;
+
+// Layer background
+$component-background: $container-color;
+
+$border-radius-base: 8px;
+$border-radius-sm: 4px;
+$text-color: $based-color;
+$font-size-base: 15px;
+$font-size-lg: $font-size-base;
+
+
+// Card
+// ---
+// $card-head-color: $heading-color;
+// $card-head-background: transparent;
+// $card-head-font-size: $font-size-lg;
+// $card-head-font-size-sm: $font-size-base;
+// $card-head-padding: 16px;
+// $card-head-padding-sm: ($card-head-padding / 2);
+// $card-head-height: 48px;
+// $card-head-height-sm: 36px;
+// $card-inner-head-padding: 12px;
+$card-padding-base: 30px;
+// $card-padding-base-sm: ($card-padding-base / 2);
+// $card-actions-background: $component-background;
+// $card-actions-li-margin: 12px 0;
+// $card-skeleton-bg: #cfd8dc;
+// $card-background: $component-background;
+// $card-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12),
+//   0 5px 12px 4px rgba(0, 0, 0, 0.09);
+// $card-radius: $border-radius-base;
+// $card-head-tabs-margin-bottom: -17px;
+// $card-head-extra-color: $text-color;
+
+$progress-info-text-color: $white;
+$progress-text-color: $white;
+$progress-default-color: $white;
+
+//input
+$input-hover-border-color: transparent;
+$input-border-color: transparent;
+$input-bg: $element-color;
+$input-placeholder-color: $gray;
+$input-hover-placeholder-color: $based-color;
+$input-number-hover-border-color: $input-hover-border-color;
+$form-item-label-font-size: 12px;
+$form-item-margin-bottom: 20px;
+$label-color: $gray;
+$label-required-color: $error-color;
+
+$input-number-hover-border-color: transparent;
+// @input-number-handler-bg: @component-background;
+$input-number-handler-border-color: transparent;
+
+// Select
+$select-border-color: transparent;
+$select-item-selected-font-weight: 300;
+$select-dropdown-bg: $container-color;
+$select-item-selected-bg: $blue;
+$select-item-active-bg: $blue;
+$select-dropdown-line-height: 20px;
+$select-background: $blue;
+$picker-bg: $element-color;
+$checkbox-size: 18px;
+$checkbox-color: $green-color;
+
+// slider
+// @slider-margin: 10px 6px 10px;
+// $slider-rail-background-color: $blue;
+// @slider-rail-background-color-hover: #e1e1e1;
+$slider-track-background-color: $blue;
+$slider-track-background-color-hover: $blue;
+$slider-handle-border-width: 0px;
+$slider-handle-background-color: $white;
+$slider-handle-color: $white;
+$slider-handle-color-hover: $white;
+$slider-handle-color-focus: $white;
+$slider-handle-color-focus-shadow: transparent;
+// @slider-handle-color-tooltip-open: @primary-color;
+$slider-handle-size: 14px;
+// @slider-handle-margin-top: -5px;
+$slider-handle-shadow: none;
+// @slider-dot-border-color: @border-color-split;
+// @slider-dot-border-color-active: tint(@primary-color, 50%);
+
+//heading
+$heading-1-size: 48px;
+$heading-2-size: 34px;
+$heading-3-size: 26px;
+$heading-4-size: 18px;
+$heading-5-size: 15px;
+
+//tabs
+$tabs-hover-color: #fff;
+$tabs-active-color: #fff;
+$tabs-highlight-color: $blue;
+$tabs-card-tab-active-border-top: 0px solid transparent;
+$tabs-card-gutter: 0px;
+$tabs-card-active-color: #fff;
+$tabs-bar-margin: 0 0 15px 0;
+$tabs-card-head-background: transparent;
+
+$menu-collapsed-width: 300px;
+
+
+// table
+$table-header-bg: transparent;
+$table-header-color: $gray;
+$table-header-sort-bg: $background-color-light;
+$table-body-sort-bg: $background-color-light;
+$table-bg: transparent;
+// @table-body-selected-sort-bg: @table-selected-row-bg;
+// @table-selected-row-hover-bg: darken(@table-selected-row-bg, 2%);
+$table-padding-vertical: 15px;
+$table-padding-horizontal: 0;
+$table-border-color: $menu-gray;
+$table-header-cell-split-color: transparent;
+
+$table-header-sort-active-bg: $background-color-light;
+
+// Switch
+$switch-height: 24px;
+$switch-min-width: 40px;
+$switch-color: $green-color;
+$switch-padding: 3px;
+
+// tags
+
+$tag-default-bg: #0E0E0E;
+$tag-font-size: $font-size-lg;
+
+// Modal
+
+$modal-body-padding: 50px;
+$modal-content-bg: $container-color;
+
+//Pagination 
+$pagination-item-bg: $menu-gray;
+$pagination-item-size: 26px;
+$pagination-item-size-sm: 26px;
+$pagination-item-bg-active: $blue;
+$pagination-item-link-bg: transparent;
+
+$calendar-bg: transparent;
+$calendar-input-bg: transparent;
+$calendar-border-color: transparent;
+$calendar-item-active-bg: $menu-gray;
+$calendar-full-bg: transparent;
+$calendar-full-panel-bg: transparent;
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding: 11px 0;
+}

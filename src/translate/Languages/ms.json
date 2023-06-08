@@ -1,0 +1,25 @@
+  {
+    "Login.title": "Selamat datang",
+    "Login.username": "Nama pengguna",
+    "Login.password": "Kata Laluan",
+    "Login.button": "Log masuk",
+    "Login.forget": "Lupa kata laluan anda?",
+    
+
+    "Forget.title": "Selamat datang",
+    "Forget.email": "Alamat emel",
+    "Forget.button": "Menetapkan semula kata laluan",
+    "Forget.back": "Kembali ke Log Masuk",
+    
+    "Request.Registry.Tab1": "Permintaan Menunggu",
+    "Request.Registry.Tab2": "Arkib",
+  
+    "Footer.copy": "Hak cipta terpelihara",
+    "Footer.content": "Pusat Penciptaan Kandungan",
+
+    "Toggle.labelhide": "Hide",
+
+    "AQA.Overview.title1" : "Gambaran Keseluruhan Jaminan Kualiti",
+
+    "LanguageSwitcher.used": "Lang dipilih:"
+  }

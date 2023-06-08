@@ -1,0 +1,5 @@
+export const ALL_CALSSROOMS = 'ALL_CALSSROOMS';
+export const ALL_EXAMSHALL = 'ALL_EXAMSHALL';
+export const FACLULTY_TYPE = 'FACLULTY_TYPE';
+export const BLOCKS = 'BLOCKS';
+export const CLASSROOM_TYPE = 'CLASSROOM_TYPE';

@@ -1,0 +1,65 @@
+{
+    "Login.title": "Welcome",
+    "Login.username": "Username",
+    "Login.password": "Password",
+    "Login.button": "Login",
+    "Login.forget": "Forgot your password?",
+    "Login.footer": "All rights reserved",
+
+    "Forget.title": "Welcome",
+    "Forget.email": "Email Address",
+    "Forget.button": "Reset Password",
+    "Forget.back": "Back to Login",
+
+    "Footer.copy": "All rights reserved",
+    "Footer.content": "Centre for Content Creation",
+
+    "Toggle.labelhide": "Hide",
+
+    "AQA.Overview.title1": "Quality Assurance Overview",
+    "AQA.Overview.programme": "Programme Status",
+    "AQA.Overview.requests": "Requests",
+    "AQA.Overview.calendar": "Academic Calendar",
+
+
+    "AQA.Faculty.title1": "Faculty List",
+    "AQA.Faculty.title2": "Add New Faculty",
+    "AQA.Faculty.title3": "Faculty Details",
+
+    "AQA.Programme.title1": "Programme List",
+    "AQA.Programme.title2": "Add New Programme",
+    "AQA.Programme.title3": "Programme Details",
+
+    "AQA.Module.title1": "Module List",
+    "AQA.Module.title2": "Add New Module",
+    "AQA.Module.title3": "Module Details",
+
+    "Program.expired.title": "Expired Programmes",
+    "Program.expiring.title": "Expiring Programmes",
+
+    "AQA.Program.title1": "Programme List",
+    "AQA.Program.title2": "Add New Programme",
+    "AQA.Program.title3": "Programme Details",
+
+    "AQA.Program.Tab1": "License",
+    "AQA.Program.Tab2": "Summary",
+    "AQA.Program.Tab3": "Accreditation",
+    "AQA.Program.Tab4": "Requirements",
+    "AQA.Program.Tab5": "Semester",
+
+    "AQA.Forms.title1": "Form Fields List",
+    "AQA.Forms.title2": "Add New Form",
+    "AQA.Forms.title3": "Form Details",
+
+    "LanguageSwitcher.used": "Lang selected:",
+    "LanguageSwitcher.en": "English",
+    "LanguageSwitcher.ms": "Malay",
+
+    "Request.Registry.Tab1": "Pending Requests",
+    "Request.Registry.Tab2": "Archive",
+
+    "Faculty.Program.Tab1": "Summary",
+    "Faculty.Program.Tab2": "Lecturers",
+    "Faculty.Program.Tab3": "Students",
+    "Faculty.Program.Tab4": "Timetable"
+}

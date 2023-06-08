@@ -1,0 +1,170 @@
+.program-list {
+    color: #BEBEBE;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    margin-right: 0;
+    border: 0;
+    padding:0;
+    border-radius: 0;
+    background-color: transparent;
+    .p-name {
+        border-radius: 8px;
+        padding: 10px 15px;
+        background: $element-color;
+        width: 100%;
+        display: block;
+    }
+    .ant-tag-close-icon {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        color: $gray;
+        font-size: 20px;
+        &:hover {
+            color: $errors;
+        }
+    }
+    .p-date {
+        display: block;
+    }
+}
+
+.add-tag {
+    margin-bottom: 10px;
+    .ant-input {
+        width: calc(100% - 20px);
+        margin-right: 20px;
+        border-radius: 8px !important;
+    }
+    .ant-input-group-addon {
+        .ant-btn-primary {
+            border-radius: 8px !important;
+            background: $green-color;
+            border-color: $green-color;
+            &:hover, &:focus {
+                background: $green-dark;
+                border-color: $green-dark;
+            }
+            &:active {
+                background: $green-active;
+                border-color: $green-active
+            }
+        }
+    }
+}
+
+.tag-code {
+    
+    color: #fff;
+    font-weight: 400;
+    border: 0;
+    padding: 5px 10px;
+    min-width: 68px;
+    text-align: center;
+}
+
+.module-tag {
+    display: inline-flex;
+    height: 40px;
+    padding: 8px 20px;
+    border: 2px solid $gray;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-tag {
+    padding: 9px 15px;
+    background: $element-color;
+    text-align: left;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    .info-icon {
+        padding:11px;
+        border-radius: 50%;
+        background: $container-color;
+        font-size: 10px;
+        margin-right: 15px;
+    }
+    
+}
+
+.assessment-tag {
+    padding: 10px 20px;
+    border: 0;
+    background: $container-color;
+    color: $gray;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.selected-tag {
+    padding: 8px;
+    border: 0;
+    background: $blue;
+    color: $white;
+    text-align: center;
+    white-space: nowrap;
+    .ant-tag-close-icon {
+        margin-left: 6px;
+        font-size: 15px;
+    }
+}
+
+
+.incentive-card-tag {
+    width: 209px;
+    position: relative;
+    padding: 30px;
+    border-radius: 12px;
+    border: 0;
+    background-color: $element-color;
+    margin: 0;
+    .tag-title {
+        height: 40px;
+        display: block;
+        white-space: normal;
+        text-align: center;
+    }
+    .ant-tag-close-icon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin:0;
+    }
+}
+
+.addincentive-btn {
+    width: 209px !important;
+    height: 160px !important
+}
+
+.chattags {
+    display: block;
+    margin: 0;
+    padding: 10px 15px;
+    white-space: normal;
+    word-break: break-all;
+    background: $element-color;
+    border: 0;
+    border-radius: 6px;
+    &.ant-tag-checkable-checked {
+        background-color: $blue;
+    }
+    &.ant-tag-checkable:active, &.ant-tag-checkable-checked {
+        color: #fff;
+        .ant-avatar-circle {
+            background-color: $white !important;
+            color: $blue !important;
+        }
+    }
+    &.ant-tag-checkable:not(.ant-tag-checkable-checked):hover {
+        color: $based-color;
+    }
+    .ant-avatar-string {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "module": "Quality Assurance",
+    "submodule": "Overview",
+    "route": "/aqa/overview",
+    "icon": "OverviewIcon",
+    "permission": "true"
+  },
+  {
+    "module": "Quality Assurance",
+    "submodule": "Faculty",
+    "route": "/aqa/faculty",
+    "icon": "FacultyIcon",
+    "permission": "true"
+  },
+  {
+    "module": "Quality Assurance",
+    "submodule": "Programme",
+    "route": "/aqa/programme",
+    "icon": "ProgrammeIcon",
+    "permission": "true"
+  },
+  {
+    "module": "Quality Assurance",
+    "submodule": "Modules",
+    "route": "/aqa/modules",
+    "icon": "ModulesIcon",
+    "permission": "true"
+  },
+  {
+    "module": "Quality Assurance",
+    "submodule": "Requests",
+    "route": "/aqa/requests",
+    "icon": "RequestIcon",
+    "permission": "true"
+  },
+  {
+    "module": "Quality Assurance",
+    "submodule": "Forms",
+    "route": "/aqa/forms",
+    "icon": "FormsIcon",
+    "permission": "true"
+  },
+  {
+    "module": "Quality Assurance",
+    "submodule": "Letters",
+    "route": "",
+    "icon": "LettersIcon",
+    "permission": "true"
+  },
+  {
+    "module": "Quality Assurance",
+    "submodule": "Academic Calendar",
+    "route": "/aqa/academic-calendar",
+    "icon": "CalendarIcon",
+    "permission": "true"
+  }
+]

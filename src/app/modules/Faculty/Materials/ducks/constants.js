@@ -1,0 +1,8 @@
+export const OVERALL_MATERIAL = 'OVERALL_MATERIAL';
+export const MY_MATERIAL = 'MY_MATERIAL';
+export const STUDENT_LIST = 'STUDENT_LIST';
+export const MATERIAL_NAME = 'MATERIAL_NAME';
+export const REVISION_LIST = 'REVISION_LIS';
+export const TAGS = 'TAGS';
+export const MATERIAL_FORM = 'MATERIAL_FORM';
+export const MATERIAL_EDIT = 'MATERIAL_EDIT';

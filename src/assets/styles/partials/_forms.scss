@@ -1,0 +1,229 @@
+.fullWidth-checbox {
+    label {
+        width: 100%;
+        padding: 8.5px 15px;
+        background: #202020;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        span {
+            color: $based-color;
+            line-height: 20px;
+            padding-left: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .ant-checkbox {
+        top: 0;
+    }
+    .ant-checkbox-inner {
+        border-radius: 4px;
+    }
+    .ant-checkbox-group-item {
+        &::after {
+            content: none;
+        }
+    }
+}
+
+
+.simple-checbox {
+    label {
+        width: 100%;
+        padding: 0;
+        background: #202020;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+        span {
+            color: $based-color;
+            line-height: 20px;
+            padding-left: 0;
+        }
+    }
+    .ant-checkbox {
+        top: 0;
+    }
+    .ant-checkbox-inner {
+        border-radius: 4px;
+    }
+    .ant-checkbox-group-item {
+        &::after {
+            content: none;
+        }
+    }
+}
+
+.one-checbox {
+    .ant-checkbox-inner {
+        border-radius: 4px;
+    }
+}
+
+.graycheckbox {
+    .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+    .ant-checkbox:hover .ant-checkbox-inner,
+    .ant-checkbox .ant-checkbox-input:focus+.ant-checkbox-inner {
+        border-color: $based-color;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner,
+    .ant-checkbox-checked:hover .ant-checkbox-inner,
+    .ant-checkbox-wrapper:hover .ant-checkbox-checked .ant-checkbox-inner,
+    .ant-checkbox-checked .ant-checkbox-input:focus+.ant-checkbox-inner {
+        border-color: $container-color;
+        background-color: $container-color;
+    }
+    .ant-checkbox-checked::after {
+        border-color: $container-color;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner::after {
+        border-color: $gray;
+    }
+}
+
+.labeldefaultFont {
+    align-items: center;
+    .ant-form-item-label > label {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+.gray-input {
+    .ant-input {
+        background-color: $menu-gray
+    }
+}
+
+.select-withicon {
+    .searchIcon {
+        position: absolute;
+        top: 8px;
+        left: 20px;
+        font-size: 20px;
+        z-index: 1;
+    }
+    .ant-select-selector {
+        .ant-select-selection-search,
+        .ant-select-selection-placeholder,
+        .ant-select-selection-item
+        {
+           padding-left: 30px;
+        }
+    }
+}
+
+.circle20 {
+    width: 20px;
+    height: 20px;
+    background: $menu-gray;
+    padding:4px;
+    border-radius: 50%;
+    .anticon {
+        vertical-align: top;
+    }
+}
+
+.ant-rate-star-first, .ant-rate-star-second {
+    color: $menu-gray;
+}
+
+.ratingField {
+    .ant-rate {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ant-rate-star {
+        margin:0;
+    }
+}
+.green-rate {
+    .ant-rate {
+        color: $green-color;
+    }
+}
+.blue-rate {
+    .ant-rate {
+        color: $blue;
+    }
+}
+
+.no-arrow {
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+    }
+}
+
+
+.check-list {
+    label {
+        padding: 9px 0 12px;
+        background: transparent;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+        justify-content: flex-start;
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        span {
+            padding-left: 8px;
+        }
+        &:last-child {
+            border: 0;
+        }
+    }
+}
+
+.side-check {
+    label {
+        padding-left: 0;
+        padding-right: 0;
+        background: transparent;
+    }
+}
+.transparentField {
+    .ant-input {
+        padding: 0;
+        background-color: transparent;
+    }
+}
+
+.white-input {
+    .ant-input-group-addon {
+        background-color: #fff;
+    }
+    .ant-input {
+        background-color: #fff;
+        color: #202020;
+    }
+    .ant-picker {
+        background-color: #fff;
+        > input {
+            color: #202020;
+        }
+    }
+    .ant-picker-suffix {
+        color:rgba(0, 0, 0, 0.3);
+        &:hover {
+            color:rgba(0, 0, 0, 0.45);
+        }
+    }
+    .ant-picker-clear {
+        color:rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        &:hover {
+            color:rgba(0, 0, 0, 0.45);
+        }
+    }
+
+}

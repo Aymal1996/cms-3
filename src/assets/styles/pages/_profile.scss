@@ -1,0 +1,72 @@
+.dashboard-FitCard {
+    margin-top: 2em;
+
+    .ant-descriptions-row {
+        > td {
+            padding-bottom: 8px;
+            border-bottom: 1px solid;
+            padding-top: 8px;
+        }
+
+        &:last-child {
+            > td {
+                border-bottom: 0;
+            }
+        }
+    }
+
+    .supervisor_text {
+        .ant-descriptions-item-container {
+            .ant-descriptions-item-content {
+                width: 170px;
+                font-size: 11px;
+            }
+        }
+    }
+
+    .ant-descriptions-item-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .ant-descriptions-item-content {
+            width: 100px;
+            text-align: right;
+            flex: none;
+            margin-left: auto;
+            display: inline;
+            color: $green-color;
+        }
+    }
+}
+
+.personalData {
+    .ant-descriptions-item-label {
+        width: 250px;
+    }
+}
+
+
+.pofile-menu {
+    padding: 8px;
+
+    .ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title {
+        padding: 4px 0;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: $container-color;
+        }
+    }
+
+    .ant-btn {
+        width: 100%;
+        text-align: left;
+    }
+    .ant-btn-link {
+        color: $gray;
+    }
+}
+
+.ant-avatar-group-popover {
+    display: none !important;
+}

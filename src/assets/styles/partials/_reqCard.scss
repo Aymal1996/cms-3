@@ -1,0 +1,139 @@
+.pending_card {
+  .ant-card-body {
+    padding: 12px;
+    background-color: $errors;
+    border-radius: 13px;
+  }
+}
+.archive_card {
+  .ant-card-body {
+    padding: 12px;
+    background-color: $black-shade;
+    border-radius: 13px;
+  }
+}
+
+.reqPanel {
+  background: transparent;
+  .ant-collapse-content-box {
+    padding: 30px 0 10px !important;
+  }
+  .ant-collapse-item {
+    margin-top: 20px;
+    border: 0;
+    .ant-collapse-header {
+      border-radius: 8px !important;
+      padding: 15px;
+    }
+  }
+}
+
+.ch-pending {
+  .ant-collapse-header {
+    background-color: $errors;
+  }
+}
+
+.ch-black {
+  .ant-collapse-header {
+    background-color: $black-shade;
+  }
+}
+
+.reqData {
+  .ant-descriptions-view {
+    border: 0;
+  }
+  .ant-descriptions-item-label {
+    background: transparent;
+    border: 0;
+    color: $gray;
+    padding: 10px 20px 10px 0;
+    min-width: 220px;
+    vertical-align: top;
+  }
+  .ant-descriptions-item-content {
+    background: transparent;
+    padding: 10px 0;
+    border: 0;
+  }
+}
+
+.student-description {
+  .ant-descriptions-view {
+    border: 0;
+  }
+  .ant-descriptions-item {
+    padding: 0px;
+  }
+  .ant-descriptions-item-label {
+    background: transparent;
+    border: 0;
+    color: $gray;
+    padding: 10px 20px 10px 0;
+    min-width: 100px;
+    vertical-align: top;
+  }
+  .ant-descriptions-item-content {
+    background: transparent;
+    padding: 10px 0;
+    border: 0;
+  }
+}
+.detailsData {
+  .ant-descriptions-item-label {
+    min-width: 270px;
+  }
+}
+
+.add-user {
+  .ant-descriptions-view {
+    border: 0;
+  }
+  .ant-descriptions-item-label {
+    background: transparent;
+    border: 0;
+    color: $white;
+    padding: 10px 0;
+  }
+  .ant-descriptions-item-content {
+    background: transparent;
+    padding: 10px 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.icon-size20 {
+  span {
+    display: flex;
+    align-items: center;
+    > span {
+      margin-left: 10px;
+    }
+  }
+  .anticon {
+    font-size: 20px;
+  }
+}
+.icon-red {
+  .anticon {
+    color: $errors;
+  }
+}
+
+.icon-green {
+  .anticon {
+    color: $green-color;
+  }
+}
+
+.detailAlignment {
+  .ant-descriptions-item-label {
+    display: flex;
+    align-items: start;
+    min-width: 200px;
+  }
+}

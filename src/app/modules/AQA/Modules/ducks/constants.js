@@ -1,0 +1,2 @@
+export const MODULE_LIST = "MODULE_LIST";
+export const SINGLE_MODULE = "SINGLE_MODULE";

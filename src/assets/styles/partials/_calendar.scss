@@ -1,0 +1,98 @@
+.custom-calendar {
+
+    // .ant-picker-calendar-header {
+    //     display: none;
+    // }
+
+    .ant-picker-panel {
+        .ant-picker-calendar-date {
+            margin: 2.5px;
+            padding: 10px 0;
+            border-top: 0;
+            border-radius: 8px;
+            text-align: center;
+            height: 53px;
+            font-size: 18px;
+            vertical-align: middle;
+            color: #fff;
+        }
+        .ant-picker-calendar-date-today {
+            border-top: 1px solid;
+        }
+        .ant-picker-calendar-date-value {
+            line-height: 1;
+            margin-bottom: 4px;
+            
+        }
+        .ant-picker-cell {
+            pointer-events: none;
+            .ant-picker-calendar-date {
+                color: transparent;
+            }
+        }
+        .ant-picker-calendar-date-content {
+            display: none;
+            height: auto;
+            line-height: 6px;
+            text-align: center;
+            .ant-badge-status-text {
+                margin:0;
+            }
+        }
+        .ant-picker-cell-selected 
+        .ant-picker-calendar-date 
+        .ant-picker-calendar-date-value, 
+        .ant-picker-cell-selected:hover 
+        .ant-picker-calendar-date 
+        .ant-picker-calendar-date-value, 
+        .ant-picker-cell-selected 
+        .ant-picker-calendar-date-today 
+        .ant-picker-calendar-date-value, 
+        .ant-picker-cell-selected:hover 
+        .ant-picker-calendar-date-today 
+        .ant-picker-calendar-date-value {
+            color: #fff;
+        }
+        .ant-picker-cell-in-view {
+            pointer-events: auto;
+            cursor: pointer;
+            .ant-picker-calendar-date-content {
+                display: block;
+            }
+            .ant-picker-calendar-date {
+                color: #fff;
+            }
+        }
+        .ant-picker-cell-in-view.ant-picker-cell-disabled {
+            .ant-picker-calendar-date {
+                color: $gray;
+            }
+        }
+        .ant-picker-body {
+            th {
+                width: auto;
+                height: auto;
+                color: $gray;
+                font-size: 12px;
+                text-align: center;
+                padding: 0 0 10px;
+            }
+        }
+    }
+}
+
+.bottom-badge  {
+    text-align: center;
+    .ant-badge-status-dot {
+        width: 10px;
+        height: 10px;
+    }
+    .ant-badge-status-text {
+        color: $gray;
+    }
+}
+
+
+.ant-picker-dropdown {
+    background-color: #000;
+}

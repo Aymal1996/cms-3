@@ -1,0 +1,78 @@
+$blue-primary: $blue;
+$blue-secondary: #2d566e;
+$blue-3: #001056;
+$body-bgcolor: #E9ECF5;
+$gray-color: #767676;
+$gray-light: #D2D2D2;
+$primary-color: $blue-primary;
+$text-color: $gray-color;
+$success-color: #52c41a;
+$border-color-split: $gray-light;
+$heading-color: #000;
+$error-color: #FB7171;
+
+$font-family: 'Nunito',
+-apple-system,
+BlinkMacSystemFont,
+'Segoe UI',
+Roboto,
+'Helvetica Neue',
+Arial,
+'Noto Sans',
+sans-serif,
+'Apple Color Emoji',
+'Segoe UI Emoji',
+'Segoe UI Symbol',
+'Noto Color Emoji';
+
+$component-background: #171717;
+$body-background: #000;
+
+$breadcrumb-separator-color: $primary-color;
+$breadcrumb-font-size: 16px;
+$breadcrumb-icon-font-size: 16px;
+$breadcrumb-last-item-color: #000;
+
+$layout-body-background: $body-bgcolor;
+$layout-header-background: white;
+$layout-sider-background: $primary-color;
+$layout-header-height: 48px;
+$layout-header-padding: 0 24px 0 70px;
+$menu-dark-bg: $primary-color;
+$menu-dark-submenu-bg: $blue-secondary;
+$layout-trigger-background: $primary-color;
+
+
+$collapse-header-padding: 24px;
+// $collapse-header-padding-extra: 40px;
+$collapse-header-bg: white;
+$collapse-content-padding: 12px 24px;
+$collapse-content-bg: white;
+$label-color: $blue-3;
+// $collapse-header-arrow-left: 16px;
+
+$steps-icon-top: 0px;
+$btn-border-radius-base: 4px;
+
+$heading-2-size: 36px;
+// $heading-5-size: 16px;
+
+$progress-default-color: $blue-primary;
+
+//table
+
+$table-header-color: $heading-color;
+$table-header-bg: white;
+
+//pagination
+
+$pagination-item-bg-active: $primary-color;
+
+//tabs
+$tabs-bar-margin: 0;
+$card-head-tabs-margin-bottom: 0;
+$card-head-height: 0;
+$tabs-horizontal-padding: 12px 16px;
+
+//input
+$input-addon-bg: white;

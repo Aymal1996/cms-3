@@ -1,0 +1,27 @@
+.offeredCard {
+  border: 0;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 10px;
+  }
+
+  .ant-card-body {
+    padding: 0;
+  }
+}
+
+.modules-height {
+  height: 330px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.classes-height {
+  height: 200px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.ant-badge-status-text {
+  font-size: 12px;
+}

@@ -1,0 +1,632 @@
+.login-card {
+  .ant-card-body {
+    padding: $largespace-xl $mediumspace-xl;
+    @media (max-width: 1366px) {
+      padding: $largespace-lg $mediumspace-lg;
+    }
+    @media (max-width: 767px) {
+      padding: $largespace-xs $mediumspace-xs;
+    }
+  }
+}
+
+.ant-card-body {
+  &:before,
+  &:after {
+    content: none;
+  }
+}
+
+.uni-card {
+  height: 100%;
+  border-radius: 12px;
+  transition: 0.2s;
+  .ant-card-body {
+    position: relative;
+    padding: $mediumspace-xl;
+    @media (max-width: 1366px) {
+      padding: $mediumspace-lg;
+    }
+    @media (max-width: 767px) {
+      padding: $mediumspace-xs;
+    }
+  }
+}
+
+.inner-card {
+  .ant-card-body {
+    padding: 10px;
+  }
+}
+
+.progress-card {
+  background-color: #202020;
+  height: 160px;
+  .ant-card-body {
+    padding: 10px;
+  }
+
+  .ant-typography {
+    margin: -2em 0 0 0;
+    text-align: center;
+    color: #BEBEBE;
+    font-size: 12px;
+  }
+}
+
+.dashboard-calendar {
+  height: 100%;
+  .ant-card-body {
+    padding: 5px;
+    text-align: center;
+    height: 100%;
+  }
+  .ant-badge-status-text {
+    display: none;
+  }
+
+  &.activeCard  {
+    background-color: #2C2C2C;
+  }
+}
+
+.no-padding {
+  .ant-card-body {
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+.side-panel {
+  height: calc(100vh - 296px);
+  .ant-card-body {
+    height: 100%;
+  }
+}
+
+.update-card {
+  max-height: 400px;
+  overflow-x: hidden;
+}
+
+// .bottom-button {
+//     position: absolute;
+//     bottom:0;
+//     left:0;
+//     width: 100%;
+//     .ant-card-body {
+//         padding: $mediumspace-xl;
+//     }
+// }
+.transparent-card {
+  width: 100%;
+  background-color: transparent;
+  overflow-x: hidden;
+  > .ant-card-body {
+    padding: 0;
+  }
+}
+.no-card-aform {
+  width: 100%;
+  background-color: transparent !important;
+  margin-bottom: 10px;
+  > .ant-card-body {
+    padding: 0;
+  }
+}
+
+.statistic-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border-left: 1px solid $menu-gray;
+  background-color: transparent;
+  overflow-x: hidden;
+  > .ant-card-body {
+    padding: 0 30px;
+  }
+}
+
+.statistic-card-first {
+  border: 0;
+  > .ant-card-body {
+    padding: 0 30px 0 0;
+  }
+}
+
+.scrolling-card {
+  width: 100%;
+  background-color: transparent;
+  overflow-x: hidden;
+  height: calc(100vh - 296px);
+  > .ant-card-body {
+    padding: 0;
+  }
+}
+
+.empty-card {
+  background-color: transparent;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.detail-cardtop {
+  background: transparent;
+  overflow-x: hidden;
+  .ant-card-body {
+    padding: 0;
+  }
+}
+
+.onebtn-height {
+  height: calc(100% - 40px);
+}
+
+.red-card {
+  border-radius: 8px;
+  background-color: $errors;
+  .ant-card-body {
+    padding: $smallspace-xl;
+  }
+  .op-6 {
+    color: #fff;
+  }
+}
+
+.pending-card {
+  border-radius: 8px;
+  background-color: $gold-color;
+  .ant-card-body {
+    padding: $smallspace-xl;
+  }
+  .op-6 {
+    color: #fff;
+  }
+}
+
+.inactive-card {
+  border-radius: 8px;
+  background-color: $menu-gray;
+  .ant-card-body {
+    padding: $smallspace-xl;
+  }
+  .op-6 {
+    color: #fff;
+  }
+}
+
+.border-card {
+  margin-bottom: 20px;
+  .ant-card-body {
+    padding: $mediumspace-xl;
+  }
+}
+
+.border-card2 {
+  margin-bottom: 30px;
+  .ant-card-body {
+    padding: $smallspace-xl;
+  }
+}
+
+.black-card {
+  background-color: transparent;
+  .ant-collapse-item {
+    background-color: #0e0e0e;
+    border: 0;
+    border-radius: 8px !important;
+    padding: $smallspace-xl;
+    margin-top: $mediumspace-xl;
+    &:first-child {
+      margin-top: 0;
+    }
+    .ant-collapse-header {
+      padding: 0;
+    }
+    .ant-collapse-content {
+      .ant-collapse-content-box {
+        padding: 20px 0 0;
+      }
+    }
+  }
+}
+
+.small-card12 {
+  border-radius: 12px;
+  .ant-card-body {
+    padding: 20px;
+  }
+}
+
+.small-card8 {
+  border-radius: 8px;
+  .ant-card-body {
+    padding: 20px;
+  }
+}
+
+.cardpx-0 {
+  .ant-card-body {
+    padding: 0 20px;
+  }
+}
+
+.mini-card {
+  border-radius: 8px;
+  .ant-card-body {
+    padding: 15px;
+  }
+}
+
+.mini-card10 {
+  .ant-card-body {
+    padding: 10px 15px;
+  }
+}
+
+.red-card-collapse {
+  background-color: transparent;
+  .ant-collapse-item {
+    border: 0;
+    border-radius: 0 !important;
+    margin-top: $mediumspace-xl;
+    &:first-child {
+      margin-top: 0;
+    }
+    .ant-collapse-header {
+      padding: $smallspace-xl;
+      border-radius: 8px !important;
+      background-color: $errors;
+    }
+    .ant-collapse-content {
+      .ant-collapse-content-box {
+        padding: 20px 0 0;
+      }
+    }
+  }
+}
+
+.cardouline-btn {
+  width: 100%;
+  padding: 27px;
+  height: auto;
+  border-radius: 12px;
+  .anticon {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 12px;
+  }
+  span {
+    display: block;
+    line-height: 20px;
+    margin-left: 0 !important;
+  }
+}
+
+.download-link {
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  background-color: $menu-gray;
+  cursor: default;
+  .ant-card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 7.75px 15px;
+    &:before,
+    &:after {
+      content: none;
+    }
+    .anticon {
+      font-size: 20px;
+    }
+    .d-name {
+      line-height: 20px;
+      overflow: hidden;
+      width: calc(100% - 40px);
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: $based-color;
+    }
+  }
+  &:hover {
+    background-color: $element-color;
+    .d-name {
+      color: #fff;
+    }
+  }
+}
+
+.req-card {
+  background-color: $black-shade;
+  .ant-card-body {
+    padding: 15px;
+  }
+}
+
+.req-card-pending {
+  background-color: $errors;
+  .ant-card-body {
+    padding: 15px;
+  }
+}
+
+.smallcard-wicon {
+  width: 130px;
+  height: 40px;
+  > .ant-card-body {
+    padding: 10px;
+  }
+  .anticon {
+    line-height: 20px;
+    font-size: 20px;
+  }
+}
+
+.uni-card-small {
+  height: 100%;
+  border-radius: 8px;
+  > .ant-card-body {
+    padding: 20px;
+  }
+  .anticon {
+    font-size: 20px;
+  }
+}
+
+.uni-card-small-active {
+  height: 100%;
+  border-radius: 8px;
+  background-color: $blue;
+  color: #fff;
+  > .ant-card-body {
+    padding: 20px;
+  }
+  .anticon {
+    font-size: 20px;
+  }
+}
+
+.figures-card {
+  transition: 0.2s;
+  .ant-card-body {
+    padding: $smallspace-xl;
+  }
+}
+
+.card-hover {
+  &:hover {
+    background-color: #ce6664;
+  }
+}
+
+.main-card-hover {
+  &:hover {
+    background-color: $element-color;
+  }
+}
+
+.category-card {
+  height: 100%;
+  background-color: $element-color;
+  cursor: pointer;
+  &:hover {
+    background-color: #303030;
+  }
+}
+
+.field-card {
+  height: 100%;
+  background-color: $element-color;
+  .ant-card-body {
+    padding: 15px 20px;
+  }
+  .customSelect {
+    > div {
+      background-color: $menu-gray;
+      .css-1uccc91-singleValue {
+        color: #fff;
+      }
+      .css-1hb7zxy-IndicatorsContainer > div {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.status-card {
+  .ant-card-body {
+    color: #fff;
+    padding: 20px;
+  }
+}
+
+.dashboard-card {
+  height: 580px;
+}
+
+.point-cursor {
+  cursor: pointer;
+}
+
+.no-listspace {
+  height: 504px;
+}
+
+.landscape-card {
+  height: 100%;
+  .ant-card-body {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+}
+
+.app-collapse {
+  background-color: transparent;
+  width: 100%;
+  .ant-collapse-item {
+    border: 0;
+    > .ant-collapse-header {
+      padding: 0 40px 30px 0;
+    }
+    > .ant-collapse-content {
+      .ant-collapse-content-box {
+        padding: 0 0 30px;
+      }
+    }
+    &:last-child {
+      > .ant-collapse-header {
+        padding: 0 40px 0 0;
+      }
+      > .ant-collapse-content {
+        .ant-collapse-content-box {
+          padding: 30px 0 0;
+        }
+      }
+    }
+    .ant-collapse-arrow svg {
+      transform: rotate(90deg) !important;
+    }
+  }
+  .ant-collapse-item-active {
+    .ant-collapse-arrow svg {
+      transform: rotate(-90deg) !important;
+    }
+  }
+}
+
+.doc-collapse {
+  background-color: transparent;
+  width: 100%;
+  .ant-collapse-item {
+    border: 0;
+  }
+  .ant-collapse-icon-position-end > 
+  .ant-collapse-item > 
+  .ant-collapse-header {
+    padding: 12px 0;
+    padding-right: 29px;
+    .ant-collapse-arrow {
+      right: 10px;
+    }
+  }
+
+  .ant-collapse-content > .ant-collapse-content-box {
+    padding: 16px 0;
+  }
+}
+
+.cardButton {
+  border: 0;
+  padding: 0;
+  float: right;
+  margin: -15px -15px 0px 0px;
+  background-color: transparent !important;
+  .ant-avatar {
+    width: 30px;
+    height: 30px;
+    background-color: $container-color;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.nospace-card {
+  background: transparent !important;
+  width: 100%;
+  .ant-card-body {
+    padding: 0;
+  }
+}
+
+.cardinTab {
+  .ant-card-body {
+    padding: 15px 0 0 0;
+  }
+}
+
+.pdf-view {
+  .react-pdf__Page__canvas {
+    width: 100% !important;
+    height: 100% !important;
+    margin-bottom: 30px;
+    border-radius: 15px;
+  }
+}
+
+.time_ul {
+  padding-bottom: 1em;
+  border-left: 1px solid #7c7c7c;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+  .ant-col {
+    //border-left: 1px solid #7c7c7c;
+    border-bottom: 0 !important;
+    padding: 0 0 25px 10px;
+    position: relative;
+
+    .ant-typography {
+      line-height: 1;
+    }
+
+    &:before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      background: #7c7c7c;
+      position: absolute;
+      left: -4px;
+      top: 3px;
+    }
+    
+    &:first-child {
+      &:before {
+        top: 0;
+      }
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+
+      &:before {
+        top: 7px;
+      }
+    }
+  }
+}
+
+.search_request {
+  .ant-card-body .ant-row {
+    flex-wrap: wrap;
+  }
+}
+
+.transparent-card-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  overflow-x: hidden;
+  > .ant-card-body {
+    padding: 0;
+    height: 100%;
+  }
+}
+
+.card-icon {
+  background-color: #000;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

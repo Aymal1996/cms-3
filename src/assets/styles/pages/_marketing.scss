@@ -1,0 +1,85 @@
+.circleProgress {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.5em;
+
+  .ant-progress-inner {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.ant-progress-status-success .ant-progress-text {
+  // color: #fff !important;
+  font-size: 0.9em !important;
+}
+
+.ant-progress-status-success .ant-progress-bg {
+  // background-color: #fff !important;
+}
+
+.percent-text {
+  font-size: 34px;
+  font-weight: 500;
+
+  span {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+
+.percent-numb {
+  font-size: 15px;
+  font-weight: 400;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card-text {
+  padding: 20px;
+  background-color: $black-shade;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.divDisable {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.disableBody {
+  .ant-tabs-tabpane {
+    position: relative;
+  }
+}
+
+.ant-form-item-control-input-content {
+  button.ant-btn.ant-btn-text {
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    top: 6px;
+    background: #202020;
+    padding: 0 10px;
+  }
+}
+
+.calendar_card {
+  .ant-card-body {
+    padding: 20px;
+  }
+
+  h5 {
+    margin-bottom: 8px;
+  }
+}

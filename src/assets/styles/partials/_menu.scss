@@ -1,0 +1,121 @@
+.main-menu {
+    background: transparent !important;
+    .menu-item {
+        .ant-menu-title-content {
+            margin-left: 15px;
+        }
+        &:hover {
+            background-color: $menu-gray;
+        }
+    }
+    .ant-menu-item-divider {
+        background-color: $menu-gray;
+    }
+    .ant-menu-item-group-title {
+        height: auto;
+        line-height: 20px;
+        padding: 0;
+        margin: 0 0 20px;
+        color: $gray;
+    }
+}
+
+.menu-item {
+    margin: 0 0 10px !important;
+    border-radius: 6px;
+    background-color: $menu-gray;
+    padding: 10px 15px !important;
+    line-height: 20px !important;
+    height: auto !important;
+    .ant-menu-title-content {
+        font-weight: 300;
+    }
+}
+.static-menu {
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+    line-height: 20px !important;
+    height: auto !important;
+}
+
+.ant-menu-dark .ant-menu-item-disabled, .ant-menu-dark .ant-menu-submenu-disabled, .ant-menu-dark .ant-menu-item-disabled > a, .ant-menu-dark .ant-menu-submenu-disabled > a, .ant-menu-dark .ant-menu-item-disabled > span > a, .ant-menu-dark .ant-menu-submenu-disabled > span > a {
+    color: $gray !important;
+    opacity: 1;
+    cursor: default;
+}
+
+.sidePanel {
+    > .ant-card-body {
+        position: relative;
+        height: calc(100vh - 40px);
+        padding: 30px;
+    }
+}
+
+.submenu-item {
+    padding: 0 !important;
+    margin: 0 0 20px;
+    background-color: transparent;
+    .ant-menu-submenu-title {
+        margin: 0;
+        height: auto !important;
+        line-height: 20px !important;
+        padding: 0 !important;
+    }
+    .ant-menu-sub {
+        margin-top: 20px !important;
+    }
+    .menu-item {
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+.side-card {
+    padding: 0;
+    height: calc(100vh - 40px);
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 12px;
+}
+
+.sidePanel {
+    > .ant-card-body {
+        display: flex;
+        padding: 0;
+    }
+}
+
+.navBar {
+    min-width: 190px;
+    max-width: 240px;
+    > .ant-card-body {
+        padding: 0;
+    }
+}
+
+.navBarResponse {
+    .menu-item {
+        border-radius: 6px;
+        padding: 10px 15px !important;
+        height: 40px !important;
+        width: 50px !important;
+        .anticon {
+            font-size: 20px !important;
+            line-height: 1 !important;
+        }
+    }
+    .ant-divider-horizontal {
+        margin: 20px 0;
+        min-width: unset;
+        width: 50px;
+    }
+}
+
+.feedStyle {
+    padding-left: 15px;
+    > .ant-card-body {
+        padding: 0;
+    }
+}

@@ -1,0 +1,4 @@
+export const SCHOLARSHIPDROP = "SCHOLARSHIPDROP";
+export const GRANTDROP = "GRANTDROP";
+export const COUNTRY_RANK = "COUNTRY_RANK";
+export const ALL_BALANCES = "ALL_BALANCES";

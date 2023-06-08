@@ -1,0 +1,16 @@
+export const TEAM_LIST = 'TEAM_LIST';
+export const MEMBER_LIST = 'MEMBER_LIST';
+export const TEAM_DETAILS = 'TEAM_DETAILS';
+export const EMPLOYEE_DETAILS = 'EMPLOYEE_DETAILS';
+export const EMPLOYEE_LIST = 'EMPLOYEE_LIST';
+export const EMPLOYEE_CARD = 'EMPLOYEE_CARD';
+export const JOBS_LIST = 'JOBS_LIST';
+export const COMPANY_LIST = 'COMPANY_LIST';
+export const HOUR_TEMPLATE = 'HOUR_TEMPLATE';
+export const TEMPLATE_LIST = 'TEMPLATE_LIST';
+export const EMPTY_TEAMS = 'EMPTY_TEAMS';
+export const EMPTY_STAFF = 'EMPTY_STAFF';
+export const WARN_LETTERS = 'WARN_LETTERS';
+export const CONTRACT_FACULTY = 'CONTRACT_FACULTY';
+export const CONTRACT_PROGRAM = 'CONTRACT_PROGRAM';
+export const CONTRACT_CAMPUS = 'CONTRACT_CAMPUS';

@@ -1,0 +1,108 @@
+.custom-table {
+    .ant-table-thead>tr>th,
+    .ant-table-tbody>tr>td {
+        font-weight: 300;
+        line-height: 1;
+        padding-right: 8px;
+    }
+    .ant-table-column-title {
+        z-index: 0;
+    }
+}
+
+.table-header-highlight {
+    .ant-table-thead>tr>th {
+        color: $based-color;
+    }
+    .ant-table-tbody>tr>td {
+        color: $gray;
+    }
+}
+
+.radio-tabs {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    background-color: #0E0E0E;
+    border-radius: 12px;
+    .ant-radio-button-wrapper {
+        color: $gray;
+        width: 100%;
+        border-radius: 8px;
+        border: 0;
+        text-align: center;
+        &:not(:first-child)::before {
+            content: none
+        }
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.transparent-table {
+    .ant-table {
+        background-color: transparent !important;
+    thead > tr > th {
+        background-color: transparent !important;
+        border-bottom: 1px solid $menu-gray !important;
+    }
+    }
+}
+
+.ant-table-expanded-row-fixed {
+    width: auto !important;
+}
+
+.row-dragging {
+    background: #fafafa;
+    border: 1px solid #ccc;
+  }
+
+  .row-dragging .drag-visible {
+    visibility: visible;
+  }
+
+  .custom-table-sort {
+    .ant-table-thead>tr>th,
+    .ant-table-tbody>tr>td {
+        font-weight: 300;
+        line-height: 1;
+        padding: 20px;
+    }
+}
+
+.radio-options {
+    width: 100%;
+    .ant-radio-button-wrapper {
+        width: 100%;
+        border-radius: 8px;
+        padding: 0;
+        background: $menu-gray;
+        border: 0;
+        margin: 5px 0;
+        text-align: center;
+        &:not(:first-child)::before {
+            content: none
+        }
+        &:hover {
+            color: #fff;
+        }
+    }
+    span.ant-radio-button~span {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        word-break: keep-all;
+        display: block;
+        width: 90%;
+        padding:0 15px;
+    }
+    
+}
+
+.loader-100 {
+    .ant-spin-nested-loading, .ant-spin-container {
+        height: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+.black-modal {
+  .ant-modal-body {
+    padding: 50px 90px;
+  }
+  .ant-modal {
+    text-align: center;
+  }
+  .ant-modal-content {
+    border-radius: 12px;
+  }
+  .ant-modal-confirm-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .anticon {
+      float: none;
+      margin: 0 0 20px;
+      font-size: 50px;
+    }
+    .ant-modal-confirm-title {
+      font-size: 26px;
+      font-weight: 400;
+      margin: 0 0 20px;
+    }
+    .ant-modal-confirm-content {
+      margin: 0;
+      line-height: 20px;
+    }
+  }
+  .ant-modal-confirm-btns {
+    float: none;
+    margin-top: 50px;
+  }
+}
+.white-modal {
+  .ant-modal-content {
+    background-color: transparent;
+    border-radius: 0px;
+  }
+  .ant-modal-body {
+    padding: 60px 0px 30px 0px;
+  }
+}

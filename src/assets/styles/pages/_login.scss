@@ -1,0 +1,37 @@
+.login-layout {
+    width: 100%;
+    overflow: hidden;
+    .ant-row-middle {
+      padding: 100px 24px 24px 24px;
+      min-height: 100vh;
+    }
+  }
+
+  .site-page-header-ghost-wrapper {
+    position: absolute;
+    width: 100%;
+  }
+
+
+  .custom-google-login {
+    button {
+      cursor: pointer;
+      background: transparent;
+      border: 0;
+    }
+  }
+
+  .login_social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    h4 {
+      color: #7c7c7c;
+      font-size: .9375em;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }

@@ -1,0 +1,40 @@
+.leaves-statistic {
+    border: 0;
+
+    > .ant-collapse-item {
+        border: 0;
+        background-color: $container-color;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        padding: 10px 20px;
+    }
+
+    .ant-avatar-group {
+        .ant-avatar {
+            border: 0;
+            background-color: $element-color;
+
+            &:not(:first-child) {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+.summary {
+    border: 0;
+
+    .ant-card-body {
+        background-color: #000;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        padding: 20px 10px;
+    }
+
+    .b-font {
+        font-weight: 500;
+        font-size: 25px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+}
